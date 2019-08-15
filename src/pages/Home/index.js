@@ -96,7 +96,7 @@ class Home extends Component {
               <strong>{item.title}</strong>
               <Star cor={favorite.indexOf(item.id)}>
                 <span>
-                  {item.priceFormat} {item.color}
+                  {item.priceFormat}
                 </span>
                 <MdStar onClick={() => this.handleStarComic(item)} size={25} />
               </Star>
